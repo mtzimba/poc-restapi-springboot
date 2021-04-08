@@ -19,7 +19,7 @@ import com.github.mtzimba.pocrestapi.controller.form.LoginForm;
 
 @RestController
 @RequestMapping("/auth")
-@Profile("PRD")
+@Profile(value = {"PRD","TST"})
 public class AutenticacaoController {
 
 	@Autowired

@@ -19,7 +19,7 @@ import com.github.mtzimba.pocrestapi.repository.UsuarioRepository;
 
 @EnableWebSecurity
 @Configuration
-@Profile("PRD")
+@Profile(value = {"PRD","TST"})
 public class SecurityConfiguration extends WebSecurityConfigurerAdapter{
 
 	@Autowired
