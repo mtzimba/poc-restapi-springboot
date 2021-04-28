@@ -8,8 +8,8 @@ import org.springframework.security.config.annotation.web.configuration.WebSecur
 
 @EnableWebSecurity
 @Configuration
-@Profile("DSV")
-public class DsvSecurityConfiguration extends WebSecurityConfigurerAdapter{
+@Profile("dev")
+public class DevSecurityConfiguration extends WebSecurityConfigurerAdapter{
 
 	// Configuração de autorização
 	@Override

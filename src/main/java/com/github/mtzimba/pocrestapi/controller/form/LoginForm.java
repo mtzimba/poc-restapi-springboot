@@ -3,7 +3,6 @@ package com.github.mtzimba.pocrestapi.controller.form;
 import java.io.Serializable;
 
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
-import org.springframework.security.core.Authentication;
 
 public class LoginForm implements Serializable {
 
